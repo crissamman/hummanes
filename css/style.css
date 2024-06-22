@@ -1,0 +1,73 @@
+body { font-family: 'Segoe UI';
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    height: 0;
+}
+
+.logotipo {
+    position: absolute;
+    top: -50px;
+    left: 20px;
+    height: 250px;
+    z-index: 1;
+}
+.niña {
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+    width: 40%;
+    height: auto;
+    z-index: 1;
+}
+
+.parallax,
+.parallax2,
+.parallax3 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.parallax {
+    background-color: #DDF4FF;
+    height: 700px;
+}
+
+.parallax2 {
+    background-color: #FAFAFA;
+    height: 150px;
+}
+
+.parallax3 {
+    background-color: #FFF2F3;
+    height: 700px;
+}
+
+footer {
+    background-color: #FAFAFA;
+    text-align: center;
+    padding: 15px 0;
+}
+.cta {
+    position: absolute;
+    top: 15px;
+    left: -65px;
+    height: 250px;
+    z-index: 1;
+}
+.empieza{
+    position: absolute;
+    top: 120px;
+    left: -95px;
+    height: 450px;
+    z-index: 1;    
+}
