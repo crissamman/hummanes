@@ -143,7 +143,7 @@ header {
 .footer {
     width: 100%;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     background-color: #f1f1f1;
     color: #333;
     position: relative;
@@ -156,17 +156,14 @@ header {
     align-items: center;
 }
 
-.social-icons {
-    margin-top: 10px;
-}
-
-.social-icons a {
-    margin: 0 10px;
+/* Estilos para el footer */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1;
     color: #333;
-    font-size: 24px;
-    text-decoration: none; /* asegura que no haya subrayado en los enlaces */
+    position: relative;
+    bottom: 0;
 }
 
-.social-icons a:hover {
-    color: #4CAF50; /* Cambia el color al verde cuando se hace hover */
-}
