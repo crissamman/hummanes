@@ -1,73 +1,137 @@
-body { font-family: 'Segoe UI';
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* Reset de estilos básicos */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
 }
 
 header {
-    position: relative;
-    height: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo-container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .logotipo {
-    position: absolute;
-    top: -50px;
-    left: 20px;
-    height: 250px;
-    z-index: 1;
-}
-.niña {
-    position: absolute;
-    bottom: 0; 
-    right: 0;
-    width: 40%;
-    height: auto;
-    z-index: 1;
+    max-width: 100%;
 }
 
-.parallax,
-.parallax2,
-.parallax3 {
+.parallax {
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 0;
-}
-
-.parallax {
-    background-color: #DDF4FF;
-    height: 700px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .parallax2 {
-    background-color: #FAFAFA;
-    height: 150px;
+    background-color: #fff; /* Color de fondo alternativo */
+    padding: 100px 0;
+    text-align: center;
 }
 
 .parallax3 {
-    background-color: #FFF2F3;
-    height: 700px;
+    background-color: #f0f0f0; /* Color de fondo alternativo */
+    padding: 100px 0;
+    text-align: center;
 }
 
-footer {
-    background-color: #FAFAFA;
+.overlay-text {
     text-align: center;
-    padding: 15px 0;
-}
-.cta {
-    position: absolute;
-    top: 15px;
-    left: -65px;
-    height: 250px;
+    color: #fff;
     z-index: 1;
 }
-.empieza{
-    position: absolute;
-    top: 120px;
-    left: -95px;
-    height: 450px;
-    z-index: 1;    
+
+.overlay-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.overlay-text p {
+    font-size: 1.5em;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.cta-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #e55c00;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+}
+
+.stat-item {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.stat-number {
+    font-size: 3em;
+    font-weight: bold;
+    color: #333;
+}
+
+.stat-description {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 10px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-item {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.cta-img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0 10px;
 }
